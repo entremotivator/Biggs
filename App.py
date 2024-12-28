@@ -152,5 +152,4 @@ elif menu == "📅 Bookings":
                                        columns=st.session_state.bookings.columns)
             st.session_state.bookings = pd.concat([st.session_state.bookings, new_booking], ignore_index=True)
             st.success("Booking added!")
-
-                st.error("Please fill all fields.")
+elds.")
